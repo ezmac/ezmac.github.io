@@ -3,3 +3,14 @@
 #- title: Theme Setup
 #  url: /theme-setup/
 
+- title: Dockered Hubot
+  url: https://github.com/ezmac/hubot
+
+- title: Esp 8266 thermostat
+  url: https://github.com/ezmac/esp8266_thermostat
+
+- title: TwinTurbo
+  url: https://github.com/ezmac/twin_turbo
+
+- title: Computer lab availability
+  url: https://github.com/ezmac/lab-computer-availability
