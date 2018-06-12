@@ -154,6 +154,7 @@ GEM
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
+    stringex (2.8.4)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
@@ -179,6 +180,7 @@ DEPENDENCIES
   octopress (~> 3.0.0.rc.12)
   rouge
   sass
+  stringex (~> 2.8)
 
 BUNDLED WITH
    1.16.2
