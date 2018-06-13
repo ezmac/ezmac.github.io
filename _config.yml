@@ -1,7 +1,7 @@
-title:            Eh, it's a blog
-description:      After 10 years of hacking computrons
+title: Eh, it's a blog
+description: Still trying to figure out titles, etc
 disqus_shortname: hpstrtheme
-reading_time:     true
+reading_time: true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
@@ -9,44 +9,45 @@ words_per_minute: 200
 
 # Owner/author information
 owner:
-  name:           ezmac
-  avatar:         avatar.jpg
-  bio:            "converted nix junkie who can't unlearn vim.  I use broken languages in sane ways."
-  email:          system.root@gmail.com
+  name: ezmac
+  avatar: avatar.jpg
+  bio: "converted nix junkie who can't unlearn vim.  I use broken languages in sane ways."
+  email: system.root@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        systemroot
-  facebook:       
-  github:         ezmac
-  stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
+  twitter: systemroot
+  facebook:
+  github: ezmac
+  stackexchange:
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:
   # google plus id, include the '+', eg +mmistakes
   #google_plus:    +yourid
 
 # Background image to be tiled on all pages
-background: 
+background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics:
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
+timezone: America/New_York
+future: true
 highlighter: rouge
 markdown: kramdown
-gems:
+plugins:
   - jekyll-sitemap
+  - jekyll-paginate
 sass:
   sass_dir: _sass
   style: compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+permalink: /:categories/:title/
 
 # Amount of post to show on home page
 paginate: 5

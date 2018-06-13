@@ -1,10 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'jekyll','~>2.4'
+gem 'jekyll'
 gem 'github-pages'
 gem 'sass'
-gem 'octopress', '~> 3.0.0.rc.12'
+gem 'octopress'
 gem 'jekyll-sitemap'
 gem 'rouge'
 
 gem "stringex", "~> 2.8"
+
+gem "jekyll-paginate", "~> 1.1"
